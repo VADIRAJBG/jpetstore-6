@@ -49,6 +49,11 @@
     <url>https://travis-ci.org/mybatis/jpetstore-6</url>
   </ciManagement>
   <distributionManagement>
+         <repository>
+                <id>deploment</id>
+                <name>internal relesase</name>
+                <url>http://localhost:8081/repository/jpetstore/</url>
+         </repository>
     <site>
       <id>gh-pages</id>
       <name>Mybatis GitHub Pages</name>
