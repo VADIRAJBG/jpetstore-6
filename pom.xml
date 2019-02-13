@@ -52,12 +52,12 @@
          <repository>
                 <id>deploment</id>
                 <name>internal relesase</name>
-                <url>http://localhost:8081/repository/jpetstore/</url>
+                <url>http://192.168.2.5:8081/repository/jpetstore/</url>
          </repository>
          <snapshotRepository>
                 <id>deploment</id>
                 <name>internal snapshot</name>
-                <url>http://localhost:8081/repository/jpetstore/</url>
+                <url>http://192.168.2.5:8081/repository/jpetstore/</url>
          </snapshotRepository>
     <site>
       <id>gh-pages</id>
