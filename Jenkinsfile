@@ -3,12 +3,9 @@ pipeline {
     stages {
         stage('---clean---') {
             steps {
-                sh "mvn clean"
-            }
-        }
-        stage('--test--') {
-            steps {
-                sh "mvn test"
+                withMaven(Maven : 'maven'){
+               sh 'maven clean'
+                }
             }
         }
         
